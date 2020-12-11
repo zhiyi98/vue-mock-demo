@@ -16,12 +16,12 @@
           <h2>{{ item.url }}</h2>
           <h2>{{ item.word }}</h2>
           <a href="#">
-            <img :src="item.image" alt="">
+            <img :src="item.image" alt="" />
           </a>
         </div>
       </div>
     </div>
-
+    
   </div>
 </template>
 
